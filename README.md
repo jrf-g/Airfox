@@ -24,12 +24,14 @@ flowchart TD
 run:
 ```bash
 
+npx playwright install firefox ffmpeg webkit
 bash ./install.sh
 node airfox.mjs
 ```
 or on Windows:
 ```bat
 
+npx playwright install firefox ffmpeg webkit
 install.bat
 node airfox.mjs
 ```
