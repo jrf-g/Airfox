@@ -138,6 +138,3 @@ vite.config.ts.timestamp-*
 
 # airfox_out
 */airfox_out/*
-
-# Package info
-package.json
