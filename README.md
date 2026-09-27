@@ -27,7 +27,7 @@ run:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install 24
-npm install playwright
+npm install playwright ulid @markdownee/markdownee
 npx playwright install firefox ffmpeg webkit
 bash ./install.sh
 node airfox.mjs
@@ -39,7 +39,7 @@ curl https://nodejs.org/dist/v24.21.0/node-v24.21.0-x64.msi -o x64node.msi
 curl https://nodejs.org/dist/v24.21.0/node-v24.21.0-arm64.msi -o arm64node.msi
 x64node.msi # arm64node.msi if you are running an ARM system
 follow the installer and select npm for the package manager
-npm install playwright
+npm install playwright ulid @markdownee/markdownee
 npx playwright install firefox ffmpeg webkit
 install.bat
 node airfox.mjs
